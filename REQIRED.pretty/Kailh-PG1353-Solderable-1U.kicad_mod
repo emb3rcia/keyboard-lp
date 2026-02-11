@@ -1,0 +1,217 @@
+(footprint "Kailh-PG1353-Solderable-1U"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 3.75 0)
+		(layer "Dwgs.User")
+		(uuid "dae693d0-a368-4ab4-a0b9-f25dfe87ea1b")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "A"
+		(at 0 6 0)
+		(layer "Dwgs.User")
+		(uuid "43210486-21eb-4004-bc99-48c1036416f7")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "14804c6b-1b7f-4f15-b77c-7bb4258c32f5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Push button switch, generic, two pins"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f9d279d4-809c-4833-827c-9f5b806f099e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -9.525 9.525)
+		(end -9.525 -9.525)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "4bdcefcd-0c5d-4a1f-b92e-51649dd1a2aa")
+	)
+	(fp_line
+		(start -7 -7)
+		(end -7 -5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "d83e44b7-f03c-4719-834c-c850d4867709")
+	)
+	(fp_line
+		(start -7 5)
+		(end -7 7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "4c9014a9-d9b0-40a2-8766-94978539383b")
+	)
+	(fp_line
+		(start -7 7)
+		(end -5 7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "30124fdf-aff7-47f1-9e20-d083acd7636d")
+	)
+	(fp_line
+		(start -5 -7)
+		(end -7 -7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "ad9ae964-8b49-41ba-b9fe-a206bca25d71")
+	)
+	(fp_line
+		(start 5 -7)
+		(end 7 -7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "c1772915-86ae-406c-9692-6249115aa136")
+	)
+	(fp_line
+		(start 5 7)
+		(end 7 7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "6701175a-5f3f-4c34-8568-fa5c507cfaf4")
+	)
+	(fp_line
+		(start 7 -7)
+		(end 7 -5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "c9a2a742-2f37-4a32-bbea-ec97689b67f3")
+	)
+	(fp_line
+		(start 7 7)
+		(end 7 5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "f7c016b7-93fc-4376-ab3f-90edc416f126")
+	)
+	(fp_line
+		(start 9.525 -9.525)
+		(end -9.525 -9.525)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "e5e56a8f-8dc4-45a7-84a6-e3fbb2d66f23")
+	)
+	(fp_line
+		(start 9.525 9.525)
+		(end -9.525 9.525)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "d4d5d213-1b08-4a09-8503-a46473198370")
+	)
+	(fp_line
+		(start 9.525 9.525)
+		(end 9.525 -9.525)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "b923ad1a-80b6-4bde-b4da-f1626657a78c")
+	)
+	(fp_rect
+		(start -1.6 3.73)
+		(end 1.6 6.13)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "e08af2b5-c94b-4002-9258-28566bacb4a8")
+	)
+	(pad "" np_thru_hole oval
+		(at -5 5.15 180)
+		(size 1.5 2)
+		(drill oval 1.5 2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "a708db78-f7a5-4935-8247-d01ecd6ab30b")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0 180)
+		(size 5 5)
+		(drill 5.1)
+		(layers "*.Cu" "*.Mask")
+		(uuid "d0d21ca0-071a-48bd-919e-d4468c793d67")
+	)
+	(pad "1" thru_hole circle
+		(at 5 -3.8 180)
+		(size 2.3 2.3)
+		(drill 1.45)
+		(layers "*.Cu" "B.Mask")
+		(remove_unused_layers no)
+		(uuid "e8dfdc31-6d27-4959-8657-807e2b178ff2")
+	)
+	(pad "2" thru_hole circle
+		(at 0 -6 180)
+		(size 2.3 2.3)
+		(drill 1.45)
+		(layers "*.Cu" "B.Mask")
+		(remove_unused_layers no)
+		(uuid "f8d2477c-853f-476d-a40e-f10bbe9b49df")
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,169 @@
+(footprint "SC-70-6_L2.2-W1.3-P0.65-LS2.2-BR"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4.65 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "38793cba-9e83-49e5-9d17-2ea09472634a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SN74LVC1T45DCKR"
+		(at 0 4.65 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6c791f13-6f50-4ad1-9902-0e6a69edefda")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://lcsc.com/product-detail/74-Series_TI_SN74LVC1T45DCKR_SN74LVC1T45DCKR_C9382.html"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0bd4be7b-d705-441b-bc95-95bec50fd2d2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1e0bfb35-0ed0-42ea-a148-612fb59e3bbc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC Part" "C9382"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6fd97a38-4225-4cbe-bd9e-7e1f6599756a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 0.7 1.08)
+		(end -0.7 1.08)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9d1493e0-4582-4123-b872-c2da857dd534")
+	)
+	(fp_line
+		(start 0.7 -1.08)
+		(end -0.7 -1.08)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "080a976a-f08f-4fe9-aa8c-f86793f942e4")
+	)
+	(fp_circle
+		(center 1 1.26)
+		(end 1.15 1.26)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "20e741dd-87ec-4952-8bf4-2b1087e04536")
+	)
+	(fp_circle
+		(center 1.35 0.65)
+		(end 1.45 0.65)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "a9b749a2-e253-40a1-adfa-ceb7ecf3c0b4")
+	)
+	(fp_circle
+		(center 1.05 1)
+		(end 1.08 1)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "ca36664d-82de-423c-bbe5-7af483eb5583")
+	)
+	(pad "1" smd rect
+		(at 0.95 0.65 180)
+		(size 0.84 0.32)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1c7f5d92-825e-43b1-b70f-1641cef01a10")
+	)
+	(pad "2" smd rect
+		(at 0.95 0 180)
+		(size 0.84 0.32)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7c0c25b6-ba20-4db0-9413-cc000b4172fc")
+	)
+	(pad "3" smd rect
+		(at 0.95 -0.65 180)
+		(size 0.84 0.32)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2a1ab1df-6f7a-493d-902b-2ab93d316ea4")
+	)
+	(pad "4" smd rect
+		(at -0.95 -0.65 180)
+		(size 0.84 0.32)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "24e6c77d-3822-4b34-a165-86ad0de1717d")
+	)
+	(pad "5" smd rect
+		(at -0.95 0 180)
+		(size 0.84 0.32)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c29407f6-7951-481b-ad11-e394d56a6ed3")
+	)
+	(pad "6" smd rect
+		(at -0.95 0.65 180)
+		(size 0.84 0.32)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2d26191d-95f3-4d9c-a2d8-9c8a769b5b45")
+	)
+	(embedded_fonts no)
+	(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SC-70-6_L2.1-W1.3-H1.0-LS2.1-P0.65.wrl"
+		(offset
+			(xyz -903.01 845.58 -0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 180)
+		)
+	)
+)
