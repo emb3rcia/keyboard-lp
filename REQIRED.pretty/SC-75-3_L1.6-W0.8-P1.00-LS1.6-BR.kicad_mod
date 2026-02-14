@@ -6,8 +6,7 @@
 	(property "Reference" "REF**"
 		(at 0 -4.5 0)
 		(layer "F.SilkS")
-		(hide yes)
-		(uuid "285c3620-460f-45e5-8214-eea80d156bc9")
+		(uuid "fbaa3abd-7ea2-42e4-8086-92dd1480cf5c")
 		(effects
 			(font
 				(size 1 1)
@@ -18,8 +17,7 @@
 	(property "Value" "RCLAMP0502BATCT"
 		(at 0 4.5 0)
 		(layer "F.Fab")
-		(hide yes)
-		(uuid "f1928ef3-b97d-41e2-8c73-05695228ea7e")
+		(uuid "fd94c666-4760-49d6-8216-232e21827d5f")
 		(effects
 			(font
 				(size 1 1)
@@ -27,11 +25,11 @@
 			)
 		)
 	)
-	(property "Datasheet" "https://lcsc.com/product-detail/Diodes-ESD_SEMTECH_RCLAMP0502BATCT_RCLAMP0502BATCT_C117553.html"
+	(property "Datasheet" ""
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "1fdfe620-bf88-407f-b2df-1d034dbf9057")
+		(uuid "84347f65-3efc-4909-9f28-d7da1a58c564")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,23 +41,10 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "24b8bfbc-1757-4dbf-812f-0936e2e0db0d")
+		(uuid "685ebce8-cbe5-40db-ac4a-ab86f7e842b5")
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "LCSC Part" "C117553"
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "d77da253-d474-4795-92b3-166e234be419")
-		(effects
-			(font
-				(size 1 1)
 				(thickness 0.15)
 			)
 		)
@@ -73,7 +58,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "b1390041-31a1-4db1-9b34-388cd5738aa5")
+		(uuid "e8a6cd15-1659-49de-a852-bf7db6367553")
 	)
 	(fp_line
 		(start 0.48 -0.13)
@@ -83,7 +68,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "cb6c7a5e-7918-4e34-9bbf-50ce694e3c3e")
+		(uuid "dc513bbd-69df-4ce2-8914-64eb63ee82be")
 	)
 	(fp_line
 		(start 0.48 -0.88)
@@ -93,7 +78,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "6745d799-e4a9-47c5-898a-4b69c471ed56")
+		(uuid "3969d4d3-35fe-4a0a-8f0a-9a8327c5249d")
 	)
 	(fp_line
 		(start -0.48 0.88)
@@ -103,7 +88,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "adaaf213-8799-42ee-a20b-89c973df7874")
+		(uuid "cc079e2b-71fe-42c1-b576-76f6bb3b43e3")
 	)
 	(fp_line
 		(start -0.48 -0.88)
@@ -113,7 +98,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "f60b3489-1169-4b22-9546-ec9dae1d880d")
+		(uuid "6cbe69a9-16f2-4cd0-af19-6d2494eb7a96")
 	)
 	(fp_circle
 		(center 1.1 0.5)
@@ -124,7 +109,7 @@
 		)
 		(fill no)
 		(layer "Cmts.User")
-		(uuid "ab6c0192-3f80-44cf-94a8-401d13dede95")
+		(uuid "96a03943-8233-4bec-af68-c2a2f2cd9f1c")
 	)
 	(fp_circle
 		(center 0.8 0.8)
@@ -135,25 +120,36 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "e6f68808-d224-441a-82a4-6b60ad58e0e4")
+		(uuid "1a16ffe5-41b8-4273-88ef-ed096253ef04")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "d50c77b5-e69e-4072-aed7-c5c9ef11caf5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
 	)
 	(pad "1" smd rect
 		(at 0.65 0.5 180)
 		(size 0.82 0.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "01c07baf-ba57-48a7-81e5-45f9ec9a9329")
+		(uuid "9a294383-29f8-419c-aa02-b2eeffdaa74d")
 	)
 	(pad "2" smd rect
 		(at 0.65 -0.5 180)
 		(size 0.82 0.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "b4a56357-4092-423e-be83-0fead358ac14")
+		(uuid "5de6d6cb-6842-485a-b292-c89fdd37eea2")
 	)
 	(pad "3" smd rect
 		(at -0.65 0 180)
 		(size 0.82 0.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "cc266203-e369-4d90-8da7-fcb66b87c569")
+		(uuid "f356695f-5b44-41b1-b645-85ce1f92db98")
 	)
 	(embedded_fonts no)
 	(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SC-75-3_L1.6-W0.8-H0.9-LS1.6-P1.0.wrl"

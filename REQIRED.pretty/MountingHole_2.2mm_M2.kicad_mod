@@ -9,7 +9,7 @@
 		(at 0 -3.15 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "8368f01c-b21a-43d0-88bf-79974d3a0682")
+		(uuid "f8c256e1-8023-4899-84c5-4cf73bfe4238")
 		(effects
 			(font
 				(size 1 1)
@@ -20,7 +20,7 @@
 	(property "Value" "MountingHole_2.2mm_M2"
 		(at 0 3.15 0)
 		(layer "F.Fab")
-		(uuid "3d15eff2-8b5d-46fd-8565-03195df76007")
+		(uuid "af0b6d60-a88a-46bc-af78-e82fa4b01403")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "ace51197-9ff2-4f2b-b7af-489b92e582d0")
+		(uuid "eb07a32d-d029-4254-9c5f-88793aa33ea9")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +44,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "8b5dd26b-4849-4639-b1c6-c478d04a3cba")
+		(uuid "d9c0c94c-65d2-467b-9e1b-4c63f05df747")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -62,7 +62,7 @@
 		)
 		(fill no)
 		(layer "Cmts.User")
-		(uuid "571dd5e1-b17d-4f00-8d5e-c140743b21d0")
+		(uuid "0215b609-cc24-4178-b53e-e87157b8c2c0")
 	)
 	(fp_circle
 		(center 0 0)
@@ -73,12 +73,12 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "6ec84af6-db6c-4055-9d51-3abc2dde5d96")
+		(uuid "eefbc7ed-e1df-4751-b05f-cedb0ee4d5b6")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "3c87c386-38d8-4942-bfe2-95813ea16553")
+		(uuid "87fe0270-dddf-4204-804b-fefbe73f3bbc")
 		(effects
 			(font
 				(size 1 1)
@@ -91,7 +91,7 @@
 		(size 2.2 2.2)
 		(drill 2.2)
 		(layers "*.Cu" "*.Mask")
-		(uuid "3fd46dc8-ae65-40cd-876b-18261b7570bc")
+		(uuid "04d612df-a36c-46f8-b14d-1d0f8c7ba428")
 	)
 	(embedded_fonts no)
 )

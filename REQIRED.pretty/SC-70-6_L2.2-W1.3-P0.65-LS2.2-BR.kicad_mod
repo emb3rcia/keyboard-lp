@@ -6,8 +6,7 @@
 	(property "Reference" "REF**"
 		(at 0 -4.65 0)
 		(layer "F.SilkS")
-		(hide yes)
-		(uuid "38793cba-9e83-49e5-9d17-2ea09472634a")
+		(uuid "79430b84-fe09-4d28-8b58-1e8c0e3b5d4c")
 		(effects
 			(font
 				(size 1 1)
@@ -18,8 +17,7 @@
 	(property "Value" "SN74LVC1T45DCKR"
 		(at 0 4.65 0)
 		(layer "F.Fab")
-		(hide yes)
-		(uuid "6c791f13-6f50-4ad1-9902-0e6a69edefda")
+		(uuid "6aeaf758-ab8e-4acc-a21c-58f3bce3deb6")
 		(effects
 			(font
 				(size 1 1)
@@ -27,11 +25,11 @@
 			)
 		)
 	)
-	(property "Datasheet" "https://lcsc.com/product-detail/74-Series_TI_SN74LVC1T45DCKR_SN74LVC1T45DCKR_C9382.html"
+	(property "Datasheet" ""
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "0bd4be7b-d705-441b-bc95-95bec50fd2d2")
+		(uuid "6d30bbb8-3681-49a9-a9c2-9e1c1e961fb6")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,23 +41,10 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "1e0bfb35-0ed0-42ea-a148-612fb59e3bbc")
+		(uuid "422c1678-407f-4ce8-85eb-c422565ab83c")
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "LCSC Part" "C9382"
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "6fd97a38-4225-4cbe-bd9e-7e1f6599756a")
-		(effects
-			(font
-				(size 1 1)
 				(thickness 0.15)
 			)
 		)
@@ -73,7 +58,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "9d1493e0-4582-4123-b872-c2da857dd534")
+		(uuid "02cc4162-1457-4ac6-8d2e-78f7868f52ac")
 	)
 	(fp_line
 		(start 0.7 -1.08)
@@ -83,7 +68,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "080a976a-f08f-4fe9-aa8c-f86793f942e4")
+		(uuid "5d881553-7bf4-4df9-943b-0f027c5019d8")
 	)
 	(fp_circle
 		(center 1 1.26)
@@ -94,7 +79,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "20e741dd-87ec-4952-8bf4-2b1087e04536")
+		(uuid "8f67db54-5084-41f1-93b8-d9c152e6c075")
 	)
 	(fp_circle
 		(center 1.35 0.65)
@@ -105,7 +90,7 @@
 		)
 		(fill no)
 		(layer "Cmts.User")
-		(uuid "a9b749a2-e253-40a1-adfa-ceb7ecf3c0b4")
+		(uuid "ee0f3d8c-82d9-470d-9c98-e98eb984f16d")
 	)
 	(fp_circle
 		(center 1.05 1)
@@ -116,43 +101,54 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "ca36664d-82de-423c-bbe5-7af483eb5583")
+		(uuid "554fdb69-ec47-4cf6-8d1f-42aeefdd281e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "02e717ce-fc0f-4f31-b4d1-5881e893af37")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
 	)
 	(pad "1" smd rect
 		(at 0.95 0.65 180)
 		(size 0.84 0.32)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "1c7f5d92-825e-43b1-b70f-1641cef01a10")
+		(uuid "918da093-6a0e-499c-b300-ce7dfa7b09c5")
 	)
 	(pad "2" smd rect
 		(at 0.95 0 180)
 		(size 0.84 0.32)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "7c0c25b6-ba20-4db0-9413-cc000b4172fc")
+		(uuid "4c56055d-ed13-40e9-ac92-aed65960e423")
 	)
 	(pad "3" smd rect
 		(at 0.95 -0.65 180)
 		(size 0.84 0.32)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "2a1ab1df-6f7a-493d-902b-2ab93d316ea4")
+		(uuid "adbdacf5-9f32-4dad-82a7-12487169a742")
 	)
 	(pad "4" smd rect
 		(at -0.95 -0.65 180)
 		(size 0.84 0.32)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "24e6c77d-3822-4b34-a165-86ad0de1717d")
+		(uuid "fa89c58c-562e-4388-a15f-2f4a6e80a2da")
 	)
 	(pad "5" smd rect
 		(at -0.95 0 180)
 		(size 0.84 0.32)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "c29407f6-7951-481b-ad11-e394d56a6ed3")
+		(uuid "89412e05-7aa0-414c-a55d-364d48da764d")
 	)
 	(pad "6" smd rect
 		(at -0.95 0.65 180)
 		(size 0.84 0.32)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "2d26191d-95f3-4d9c-a2d8-9c8a769b5b45")
+		(uuid "a763401f-5c28-4f51-b619-e909ed44bc07")
 	)
 	(embedded_fonts no)
 	(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SC-70-6_L2.1-W1.3-H1.0-LS2.1-P0.65.wrl"
