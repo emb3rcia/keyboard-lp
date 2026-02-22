@@ -1,5 +1,7 @@
 # keyboard-lp
 
+![case](Images/case.png)
+
 ## Description
 
 It is my first low-profile keyboard, and first per-key GPIO keyboard. It features 2 USB ports - one for communication with PC and one for power for LEDs, per-key LED backlight and full n-key rollover!
