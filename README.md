@@ -1,5 +1,7 @@
 # keyboard-lp
 
+![case](Images/case.png)
+
 ## Description
 
 It is my first low-profile keyboard, and first per-key GPIO keyboard. It features 2 USB ports - one for communication with PC and one for power for LEDs, per-key LED backlight and full n-key rollover!
@@ -7,6 +9,10 @@ It is my first low-profile keyboard, and first per-key GPIO keyboard. It feature
 ## Why i made this project
 
 I like making keyboards, it is my second keyboard i designed and it is very fun. I also want to use LP keyboard, but i dont have budget to buy ready-to-use one.
+
+## What i learned
+
+Mainly i learned even more about tight connection layout on PCB, as with per-key GPIO i needed to connect each key to its individual pin on MCU.
 
 # Photos
 
